@@ -1,0 +1,102 @@
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    border: 2px ;
+    display: inline-block;
+
+}
+
+.left {
+
+    border: 2px ;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    top: 20px;
+}
+
+.left img {
+    width: 91px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: auto;
+    border: 2px ;
+    top: 20px;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(137, 134, 134);
+}
+
+.container {
+    border:5px;
+    margin: 10px 90px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button{
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin: 40px;
+
+}
